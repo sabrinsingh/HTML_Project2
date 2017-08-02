@@ -1,1 +1,89 @@
-<html>Sabrin lal Singh</html>
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sabrin's Blog</title>
+
+<link href="#" rel="stylesheet">
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+
+<style>
+header{
+text-align:center;
+background:brown;
+color:white;
+}
+ul{
+
+padding:0px;
+background:red;
+}
+img{
+width:150px;
+margin:40px 0px 0px 0px;
+border:7px solid white;
+border-radius:100px;
+}
+
+li{
+display:inline;
+padding:0px 10px 0px 10px;
+}
+
+a{
+color:white;
+}
+
+h1{
+font-size:70px;}
+
+
+
+@media(max-width:500px){
+h1{
+	font-size: 36px;
+}
+li{
+display:block;
+padding:10px 0px 10px 0px;
+}
+}
+</style>
+
+</head>
+
+<body>
+<header>
+<img src="C:\Users\Sabrin\Desktop\20121019_072359000_iOS.jpg">
+<h1>Sabrin's Blog</h1>
+<ul>
+<li><a href="#">About Me</a></li>
+<li><a href="#">Check Products</a></li>
+<li><a href="#">Your Cart</a></li>
+</ul>
+</header>
+<h1>Skill</h1>
+<p>ORACLE, ODI (ORACLE DATA INTEGRATOR),  JAVA, PHP, HTML, MYSQL, C++, C
+Leadership, Teamwork, Disciplined, Communication, Punctual
+</p>
+<button>Like</button>
+
+
+<h2>DECLARATION</H2>
+<p>I hereby declare that the information furnished above is true to the best of my knowledge and subject to verification. </p>
+<button>Like</button>
+
+
+<script>
+$("button").on("click", function(){alert("Clicked...JS and JQuery")});
+$("img").on("click", function(){alert("Image was Clicked on...JS and JQuery")});
+
+</script>
+
+</body>
+</html>
+
